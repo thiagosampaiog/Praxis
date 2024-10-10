@@ -1,0 +1,66 @@
+:root {
+  --fundo: #000;
+  --quadrados-vazios: #fff;
+  --vermelho: red;
+  --acessorio-bone: #fff;
+  --pele: rgb(235, 226, 204);
+  --acessorio: yellow;
+  --olhos: darkblue;
+  --branco: #fff;
+  --roupa: rgb(0, 110, 255);
+  --cabelo: rgb(105, 60, 18);
+  --sapato: rgb(105, 60, 18);
+  
+}
+
+body {
+  background-color: var(--fundo);
+  margin: auto;
+  min-height: 100vh;
+  width: 50%;
+  display: grid;
+  gap: 3px;
+}
+
+.linhas {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); 
+  width: 100%;
+  gap: 3px;
+}
+
+.quadrados {
+  background-color: var(--quadrados-vazios);
+}
+
+.pele {
+  background-color: var(--pele);
+}
+
+.olhos{
+  background-color: var(--olhos);
+}
+
+.cabelo {
+  background-color: var(--cabelo);
+}
+
+.roupa {
+  background-color: var(--roupa);
+}
+
+.vermelho {
+  background-color: var(--vermelho);
+}
+
+.sapato {
+  background-color: var(--sapato);
+}
+
+.branco {
+  background-color: var(--branco);
+}
+
+.acessorio {
+  background-color: var(--acessorio);
+}
