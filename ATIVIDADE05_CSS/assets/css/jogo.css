@@ -1,0 +1,44 @@
+.jogo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8rem;
+  background-image: url("../images/Background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+.titulo {
+  margin-top: 16.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.titulo h1 {
+  font-size: 1.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.308);
+  border-radius: 61.9px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.titulo img {
+  /* width: 587px; */
+  width: 41vw;
+}
+
+.hornet {
+  /* width: 820px; */
+  width: 56.9vw;
+  /* height: 472px; */
+  height: 34.2vw;
+  object-fit: cover;
+  border-radius: 16px;
+  filter: drop-shadow(2px 5px 10px #ffffffe0);
+  filter: drop-shadow(0.5px -1px 4px #bb9bffb2);
+}
+

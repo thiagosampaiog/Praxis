@@ -1,0 +1,58 @@
+header {
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 5px 20px;
+  background-color: #000000;
+  box-shadow: 3px 1px 0px rgb(101 99 99 / 61%);
+  box-sizing: border-box;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-bar img {
+  height: 6rem;
+  margin-left: 5rem;  
+}
+
+.menu {
+  display: flex;
+  gap: 4.5rem;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  margin-left: 3rem;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  line-height: 0.2rem;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.team-cherry {
+  border: 0.2rem solid white;
+  border-radius: 3rem;
+  padding: 15px;
+  background-color: transparent;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.menu a.team-cherry:hover {
+  background-color: rgb(224, 224, 224);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition-delay: 0.1s;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}

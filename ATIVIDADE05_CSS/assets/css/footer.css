@@ -1,0 +1,98 @@
+footer {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 0px 64px;
+  overflow: hidden;
+}
+
+.columns {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  gap: 2.4rem;
+  overflow: hidden;
+  padding: 24px;
+}
+
+.columns h3 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  line-height: 2;
+  margin-bottom: 1.6rem;
+}
+
+.columns p {
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.coluna11 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.cherry p:not(:nth-last-child(1)){ 
+  margin-bottom: 0.6rem;
+  
+}
+
+
+.contato h3:not(:nth-last-child(1)){ 
+  margin-top: 3rem;
+}
+
+
+.copyright {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.copyright p {
+  color: gray;
+  margin-top: 1.5rem;
+}
+
+
+.coluna22 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.sociais p:not(:nth-last-child(1)){ 
+  margin-bottom: 0.6rem;
+  
+}
+
+.sociais h3:not(:nth-last-child(1)){ 
+  margin-top: 2rem;
+  
+}
+
+.coluna22 a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+
+.endereco h1{
+  margin-bottom: 1.6rem;
+}
+
+
+.coluna33 {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.coluna33 img {
+  width: 13.8rem;
+  height: 10.5rem;
+}

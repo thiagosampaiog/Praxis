@@ -1,0 +1,327 @@
+@media (max-width: 480px) {
+  .nav-bar{
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-bar img{
+    margin-left: 1rem;
+    height: 4rem;
+ }
+  .menu {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 0;
+    gap: 1.2rem;
+
+  }
+
+  .menu a{
+    font-size: 0.9rem;
+  }
+
+  .team-cherry{
+    padding: 8px;
+  }
+  
+  .jogo{
+    gap: 2rem;
+  }
+
+  .titulo {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+  }
+
+  .titulo h1{
+    font-size: 0.6rem;
+    padding: 7px;
+  }
+
+  .plataformas{
+    padding: 60px 3px;
+  }
+
+  .plataformas h1{
+    font-size: 1.5rem;
+  }
+
+  .logos img{
+    max-width: 16%;
+
+  }
+
+  .historia h1{
+    font-size: 1.5rem;
+  }
+
+  .colunas{
+    gap: 1rem;
+    padding: 10px;
+  }
+
+
+  .text-box{
+    width: 40%;
+    height: 30%;
+    padding: 15px;
+    gap: 0.8rem;
+  }
+
+  .text-box h1{
+    font-size: 1rem;
+  }
+
+  .text-box p{
+    font-size: 0.6rem;
+  }
+
+  #imghistoria1, #imghistoria2, #imghistoria3 {
+    max-width: 50%;
+}
+
+.screenshots{
+  padding: 30px;
+}
+
+footer{
+  width: 100%;
+  padding: 0;
+}
+
+.columns{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  gap: 2.4rem;
+  overflow: hidden;
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.columns h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 2;
+  margin-bottom: 1.6rem;
+}
+
+.columns p {
+  font-size: 0.6rem;
+}
+
+.coluna33 img {
+  width: 4.8rem;
+  height: 3.5rem;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .nav-bar{
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-bar img{
+    height: 7rem;
+    margin-left: 1rem;
+ }
+  .menu {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 0;
+    gap: 2.5rem;
+  }
+
+
+  .jogo{
+    gap: 8rem;
+  }
+
+  .titulo {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+  }
+
+  .titulo h1{
+    font-size: 1rem;
+  }
+
+  .plataformas h1{
+    font-size: 2.3rem;
+  }
+  
+  .logos img{
+    max-width: 18%;
+  }
+
+
+  .historia h1{
+    font-size: 2.5rem;
+  }
+
+  .colunas{
+    gap: 1rem;
+    padding: 10px;
+  }
+
+
+  .text-box{
+    width: 46%;
+    height: 30%;
+    padding: 25px;
+    gap: 1rem;
+  }
+
+  .text-box h1{
+    font-size: 1.5rem;
+  }
+
+  .text-box p{
+    font-size: 0.7rem;
+  }
+
+  #imghistoria1, #imghistoria2, #imghistoria3 {
+    max-width: 46%;
+}
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .nav-bar{
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-bar img{
+    margin-left: 1rem;
+ }
+  .menu {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 0;
+    gap: 3.5rem;
+  }
+
+  .jogo{
+    gap: 9rem;
+  }
+
+  .titulo {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+  }
+
+  .titulo h1{
+    font-size: 1.3rem;
+  }
+
+  .plataformas h1{
+    font-size: 2.3rem;
+  }
+  
+  .logos img{
+    max-width: 20%;
+  }
+
+
+  .historia h1{
+    font-size: 3rem;
+  }
+
+  .colunas{
+    gap: 1rem;
+    padding: 10px;
+  }
+
+
+  .text-box{
+    width: 46%;
+    height: 30%;
+    padding: 35px;
+    gap: 1.2rem;
+  }
+
+  .text-box h1{
+    font-size: 2rem;
+  }
+
+  .text-box p{
+    font-size: 1rem;
+  }
+
+  #imghistoria1, #imghistoria2, #imghistoria3 {
+    max-width: 46%;
+}
+
+}
+
+@media (min-width: 1441px) and (max-width: 2560px) {
+  .nav-bar{
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-bar img{
+    height: 10rem;
+ }
+
+  .menu {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 0;
+    gap: 9rem;
+  }
+
+  .menu a{
+    font-size: 3rem;
+  }
+
+  .team-cherry{
+    padding: 30px;
+  }
+
+  .titulo h1{
+    font-size: 2.5rem;
+    padding: 25px;
+  }
+
+
+  
+  .historia h1{
+    font-size: 5.8rem;
+  }
+    
+  
+  .text-box{
+    width: 65vh;
+    padding: 50px;
+    gap: 3rem;
+  }
+  
+  .text-box h1{
+    font-size: 4.8rem;
+
+  }
+  
+  .text-box p{
+    font-size: 2.4rem;
+  }
+  
+  #imghistoria1, #imghistoria2, #imghistoria3 {
+      width: 46%;
+    
+  }
+}
+
