@@ -189,7 +189,38 @@ footer{
   }
 
   #imghistoria1, #imghistoria2, #imghistoria3 {
-    max-width: 46%;
+    max-width: 46%;   
+}
+
+footer {
+  width: 100%;
+  padding: 0;
+}
+
+.columns{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 2.4rem;
+  overflow: hidden;
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.columns h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 2;
+  margin-bottom: 1.1rem;
+}
+
+.columns p {
+  font-size: 1rem;
+}
+
+.coluna33 img {
+  width: 4.8rem;
+  height: 3.5rem;
 }
 
 }
